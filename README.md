@@ -34,8 +34,8 @@ for base_class_name in ["TwoPileNim", "CheckmateTactic", "Chase", "StopTheFall",
 ### Interactive Demos
 ```
 python demos/two_pile_nim_demo.py
+python demos/checkmate_tactic_demo.py
+python demos/chase_demo.py
+python demos/stop_the_fall_demo.py
+python demos/reach_for_the_star_demo.py
 ```
-```python demos/checkmate_tactic_demo.py```
-```python demos/chase_demo.py```
-```python demos/stop_the_fall_demo.py```
-```python demos/reach_for_the_star_demo.py```
