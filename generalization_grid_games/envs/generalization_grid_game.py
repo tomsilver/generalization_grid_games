@@ -9,6 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+
 class InvalidState(Exception):
     pass
 
@@ -306,5 +307,3 @@ def create_gym_envs(base_class, layouts, global_context):
     for i, layout in enumerate(layouts):
         gym_env = GymEnvFactory(base_class, i, layout)
         global_context[gym_env.__name__] = gym_env
-
-
